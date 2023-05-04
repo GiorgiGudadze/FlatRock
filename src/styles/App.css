@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: whitesmoke;
+}
+
+.headerWrapper{
+    padding: 25px;
+    padding-bottom: 0;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 2px #b8b8b8;
+    background-color: #fff;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+header h1{
+    margin-left: 80px;
+    font-size: 28px;
+}
+
+.css-1b0ve20{
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+}
+
+.modalCntField{
+    display: flex;
+    width: 100%;
+    max-width: 365px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.searchCnt{
+    display: flex;
+}
+
+.searchCnt .css-i4bv87-MuiSvgIcon-root{
+    margin-left: -24px;
+}
+
+.searchCnt_input{
+    border: none;
+    border-bottom: 2px solid grey;
+    padding-bottom: 5px;
+    width: 250px;
+    padding-left: 5px;
+    padding-right: 24px;
+}
+
+.searchCnt_input:focus{
+    outline: none;
+}
+.css-1nylpq2{
+    margin-bottom: 30px;
+}
+
+.css-k008qs{
+    margin-bottom: 30px;
+}
+
+.css-3nwxr6 .css-sghohy-MuiButtonBase-root-MuiButton-root{
+    border-radius: 15px;
+}
+
+.tableCnt{
+    padding-top: 40px;
+    overflow-x: unset !important;
+    overflow: unset !important;
+}
+
+.tableCnt .css-de9k3v-MuiDataGrid-selectedRowCount{
+    visibility: hidden !important;
+}
+
+.css-axafay-MuiDataGrid-virtualScroller{
+    overflow: unset !important;
+}
+.tableCnt__wrap{
+    padding-top: 2px;
+    max-width: 1280px;
+    margin: auto;
+    width: 1000%;
+}
+
+.tableCnt .css-1w53k9d-MuiDataGrid-overlay{
+    background-color: unset;
+}
+
+.tableCnt .css-17slstj-MuiSvgIcon-root{
+    background-color: rgb(126, 126, 241);
+    font-size: 24px;
+    padding: 2px 4px;
+    width: 36px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.tableCnt .css-6h1dhi-MuiDataGrid-root{
+    border: none;
+}
+
+.tableCnt .css-6h1dhi-MuiDataGrid-root .MuiDataGrid-row:not(.MuiDataGrid-row--dynamicHeight)>.MuiDataGrid-cell, .tableCnt .css-6h1dhi-MuiDataGrid-root .MuiDataGrid-row{
+    min-height: 70px !important;
+    max-height: 70px !important;
+}
+
+.tableCnt .css-6h1dhi-MuiDataGrid-root .MuiDataGrid-columnHeader:focus, .css-6h1dhi-MuiDataGrid-root .MuiDataGrid-cell:focus,
+.tavleCnt .css-6h1dhi-MuiDataGrid-root .MuiDataGrid-cell:focus-within{
+    outline: none !important;
+}
+
+.css-6h1dhi-MuiDataGrid-root .MuiDataGrid-columnHeader:focus-within, .css-6h1dhi-MuiDataGrid-root .MuiDataGrid-cell:focus-within{
+    outline: none !important;
+}
+
+.tableCnt .css-6h1dhi-MuiDataGrid-root .MuiDataGrid-row.Mui-selected, .tableCnt .css-6h1dhi-MuiDataGrid-root .MuiDataGrid-row.Mui-selected:hover{
+    background-color: unset;
+}
+
+.tableCnt .css-1iyq7zh-MuiDataGrid-columnHeaders{
+    border-color: #d3d3d3 !important;
+    border-width: 2px !important;
+}
+
+.tableCnt .css-6h1dhi-MuiDataGrid-root .MuiDataGrid-withBorderColor {
+    border-color: rgb(216 216 216);
+}
+
+.tableCnt .css-t89xny-MuiDataGrid-columnHeaderTitle{
+    color: #939393;
+}
+
+.tableCnt .hide{
+    display: none !important;
+}
+
+.tableCnt .show{
+    display: flex !important;
+}
+
+.setting{
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+    padding: 40px 25px;
+    display: flex;
+}
+
+.settingCnt{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.settingCnt .vpnKeyIcon{
+    position: absolute;
+    top: 111px;
+    right: 20px;
+    font-size: 44px;
+    background-color: #7e7ef1;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 65px;
+}
+
+.settingCnt__profile{
+    display: flex;
+    flex-direction: column;
+    margin-right: 58px;
+    margin-top: -15px;
+    position: relative;
+    align-items: center;
+}
+
+.settingCnt__details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.settingCnt__details .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root{
+    color: #4aaddf;
+    font-weight: bold;
+}
+
+.settingCnt__permissions{
+    width: 100%;
+    max-width: 460px;
+}
+
+.settingsCnt__btn, .settingsCnt__photo{
+    opacity: 1;
+    transition: 1s !important;
+}
+
+.settingCnt .inActive{
+    opacity: 0;
+    transition: 1s !important;
+    pointer-events: none;
+}
+
+.settingCnt__permissions .css-1fjvggn-MuiPaper-root-MuiAccordion-root{
+    border: none !important;
+    border-top: 1px solid rgb(211, 211, 211) !important;
+}
+
+.settingCnt__permissions .css-1betqn-MuiAccordionSummary-content{
+    margin: 18px 0;
+}
+
+.settingCnt__permissions .css-ounldo-MuiAccordionDetails-root{
+    background-color: #f5f5f5;
+    padding-right: 0;
+}
+
+.settingCnt__permissions .css-uvvswg-MuiButtonBase-root-MuiAccordionSummary-root{
+    padding: 0;
+}
+
+.settingCnt__permissions .css-yw020d-MuiAccordionSummary-expandIconWrapper{
+    margin-left: -20px;
+}
+
+.accordionDetailsCnt .css-ahj2mt-MuiTypography-root::before{
+    content: " ";
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    margin-right: 8px;
+    margin-bottom: 3px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.dot.active .css-ahj2mt-MuiTypography-root::before{
+    background-color: #44a0d3;
+}
+
+.MuiSwitch-thumb{
+    color: red;
+}
+
+.Mui-checked .MuiSwitch-thumb {
+    color: #44a0d3;
+}
+  
+.MuiSwitch-switchBase + .MuiSwitch-track {
+    background-color: red;
+}
+
+.closeMuiIcon1{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+}
